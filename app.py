@@ -1,4 +1,5 @@
 import streamlit as st
+import tiktoken
 import pickle5 as pickle
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
