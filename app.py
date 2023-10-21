@@ -1,5 +1,4 @@
 import streamlit as st
-from dotenv import load_dotenv
 import pickle
 from PyPDF2 import PdfReader
 from streamlit_extras.add_vertical_space import add_vertical_space
@@ -13,6 +12,7 @@ import os
 from langchain.chat_models import ChatOpenAI
 import json
 from streamlit_lottie import st_lottie
+from dotenv import load_dotenv
 
 
 st.set_page_config(layout="wide",page_title="Chat PDF App", page_icon="page_icon.jpg", initial_sidebar_state="expanded")
